@@ -1,38 +1,41 @@
 # IDD-Fa18-Lab1: Blink!
 
-**A lab report by John Q. Student**
-
-**Fork** this repository to get a template for Lab 1 for *Developing and Designing Interactive Devices* at Cornell Tech, Fall 2018. You should modify this `README.md` file to delete this paragraph and update below. As the lab asks:
+**A lab report by Natalie Friedman**
 
 > Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
 
-We've copied the questions from the lab here. Answer them below!
-
 ## Part A. Set Up a Breadboard
+![NAME Breadboard](IMG_5989.JPG)
 
-[insert a photo of your breadboard setup here]
-
-
-## Part B. Manually Blink a LED
+## Part B. Manually Blink a LED\
 
 **a. What color stripes are on a 100 Ohm resistor?**
+ brown, black, black
  
 **b. What do you have to do to light your LED?**
-
+Press the button, after:
+Put the LED into the breadboard, put resistor in same number row, Remember to flip LED so long side is matched, wire negative to resistor, wire LED to positive and connect negative to 5v and positive to ground. 
 
 ## Part C. Blink a LED using Arduino
 
 ### 1. Blink the on-board LED
 
 **a. What line(s) of code do you need to change to make the LED blink (like, at all)?**
+No changes woohoo
 
 **b. What line(s) of code do you need to change to change the rate of blinking?**
+Delay.
 
 **c. What circuit element would you want to add to protect the board and external LED?**
+A resistor.
  
 **d. At what delay can you no longer *perceive* the LED blinking? How can you prove to yourself that it is, in fact, still blinking?**
 
+No floats allowed. Instead you can use delayMicroseconds(1) to make it inpercievable. You can look at the code or take a really high frame rate photo. 
+
 **e. Modify the code to make your LED blink your way. Save your new blink code to your lab 1 repository, with a link on the README.md.**
+
+![Part C Code](Lab_1_-_Part_C.ino)
 
 
 ### 2. Blink your LED
@@ -75,3 +78,5 @@ We've copied the questions from the lab here. Answer them below!
 **Make a video showing off your Frankenlight.**
 
 **Include any schematics or photos in your lab write-up.**
+
+When switching computers, make sure you select the right board by going tools,port, select arduino
