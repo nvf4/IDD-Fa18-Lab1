@@ -42,8 +42,7 @@ No floats allowed. Instead you can use delayMicroseconds(1) to make it inperciev
 
 **Make a video of your LED blinking, and add it to your lab submission.**
 
-[link to your video here; feel free to upload to youtube and just paste in a link here]
-
+![Part C Video](IMG_5885.MOV)
 
 ## Part D. Manually fade an LED
 
