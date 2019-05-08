@@ -48,13 +48,25 @@ No floats allowed. Instead you can use delayMicroseconds(1) to make it inperciev
 
 **a. Are you able to get the LED to glow the whole turning range of the potentiometer? Why or why not?**
 
+Yes, I am. I can because the resistor is not in the breadboard. If the resistor was still in I would not be able to see the full range. 
 
 ## Part E. Fade an LED using Arduino
 
 **a. What do you have to modify to make the code control the circuit you've built on your breadboard?**
 
+You need to change the pin number physically, and in the code. 
+Justin, I don't remember what we changed?
+
 **b. What is analogWrite()? How is that different than digitalWrite()?**
 
+Analog is a continuous range(0-1024) and digital is discrete (yes/no).
+When you dim the light in analog (continous), the light is using a resistor.
+When you dim the light in digital (discrete), the light is turning all the way on and off very fast or very slow. 
+
+digitalWrite will set the specified pin to one of two states - HIGH/LOW, which equate to 5v (3.3v on some boards) and ground respectively.
+
+analogWrite can vary by the type of output used.
+https://arduino.stackexchange.com/questions/35873/whats-the-difference-between-analogwrite-and-digitalwrite/36029
 
 ## Part F. FRANKENLIGHT!!!
 
@@ -78,4 +90,4 @@ No floats allowed. Instead you can use delayMicroseconds(1) to make it inperciev
 
 **Include any schematics or photos in your lab write-up.**
 
-When switching computers, make sure you select the right board by going tools,port, select arduino
+When switching computers, make sure you select the right board by going tools, port, select arduino
