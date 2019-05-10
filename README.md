@@ -5,7 +5,7 @@
 > Include your responses to the bold questions on your own fork of the lab activities. Include snippets of code that explain what you did. Deliverables are due next Tuesday. Post your lab reports as `README.md` pages on your GitHub, and post a link to that on your main class hub page.
 
 ## Part A. Set Up a Breadboard
-![NAME Breadboard](IMG_5989.JPG)
+![Breadboard](IMG_5989.JPG)
 
 ## Part B. Manually Blink a LED\
 
